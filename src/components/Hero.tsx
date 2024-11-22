@@ -5,7 +5,7 @@ export function Hero() {
     <section className="relative overflow-hidden">
       <div className="hero-gradient absolute inset-0" />
       <div className="container mx-auto px-6 py-32 relative">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center px-4">
           <div className="inline-flex items-center bg-zinc-900/50 rounded-full px-4 py-2 mb-8">
             <span className="text-amber-500 mr-2">New</span>
             <span className="text-gray-400">Autonomous Flight Control v2.0</span>
