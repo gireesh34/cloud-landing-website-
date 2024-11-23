@@ -1,6 +1,6 @@
 import { CloudCog, Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import logo from '../src/assets/logo.png'; 
+import logo from '../assets/logo.png'; 
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
