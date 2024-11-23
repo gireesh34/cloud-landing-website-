@@ -1,5 +1,6 @@
 import { CloudCog, Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import logo from '../src/assets/logo.png'; 
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between h-16">
       <div className="flex items-center space-x-2">
         <CloudCog className="h-6 w-6 text-amber-500 md:h-8 md:w-8" />
-        <img src="/src/assets/logo.png" alt="Logo" className="h-8 w-22 md:h-10 md:w-22" />
+        <img src={logo} alt="Logo" className="h-8 w-22 md:h-10 md:w-22" />
         {/* <span className="hover:text-yellow-400 text-xl font-bold md:text-2xl">Atom8ic</span> */}
       </div>
       <div className="hidden md:block">
