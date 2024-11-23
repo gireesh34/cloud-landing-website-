@@ -10,9 +10,9 @@ const Navbar = () => {
   <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="flex items-center justify-between h-16">
       <div className="flex items-center space-x-2">
-        <CloudCog className="h-8 w-8 text-amber-500" />
-        <img src="/src/assets/logo.webp" alt="Logo" className="h-10 w-22" />
-        {/* <span className="hover:text-yellow-400 text-2xl font-bold">Atom8ic</span> */}
+        <CloudCog className="h-6 w-6 text-amber-500 md:h-8 md:w-8" />
+        <img src="/src/assets/logo.png" alt="Logo" className="h-8 w-22 md:h-10 md:w-22" />
+        {/* <span className="hover:text-yellow-400 text-xl font-bold md:text-2xl">Atom8ic</span> */}
       </div>
       <div className="hidden md:block">
         <div className="ml-10 flex items-baseline space-x-4">
