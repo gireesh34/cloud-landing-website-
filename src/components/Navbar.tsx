@@ -11,7 +11,8 @@ const Navbar = () => {
     <div className="flex items-center justify-between h-16">
       <div className="flex items-center space-x-2">
         <CloudCog className="h-8 w-8 text-amber-500" />
-        <span className="hover:text-yellow-400 text-2xl font-bold">Atom8ic</span>
+        <img src="/src/assets/logo.webp" alt="Logo" className="h-10 w-22" />
+        {/* <span className="hover:text-yellow-400 text-2xl font-bold">Atom8ic</span> */}
       </div>
       <div className="hidden md:block">
         <div className="ml-10 flex items-baseline space-x-4">
