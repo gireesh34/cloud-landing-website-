@@ -4,8 +4,8 @@ export function CTA() {
   return (
     <section className="py-32 bg-[#011e14]" id="contact">
       <div className="container mx-auto px-6 ">
-        <div className="relative overflow-hidden border border-amber-800 rounded-3xl bg-[radial-gradient(#033121,#011e14_80%)] p-12 text-center ">
-          <div className="absolute inset-0" />
+        <div className="relative overflow-hidden rounded-3xl bg-[#033121] bg-opacity-30 backdrop-filter backdrop-blur-lg p-12 text-center ">
+          <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 opacity-20" />
           <div className="relative">
             <h2 className="text-4xl font-bold mb-6">
               Ready to Transform Your Drone Operations?
