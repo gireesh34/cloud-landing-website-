@@ -1,10 +1,12 @@
 import { ChevronRight, ArrowRight } from 'lucide-react';
-
+import droneVideo from '../assets/drone.mp4';
 export function Hero() {
   return (
     <div>
       <section className="relative overflow-hidden">
       <div className="absolute inset-0 z-0 w-full h-full">
+        
+
         <video
           autoPlay
           muted
@@ -12,7 +14,7 @@ export function Hero() {
           className="absolute inset-0 w-full h-full object-cover"
           style={{ objectFit: 'cover', minHeight: '100%' }}
         >
-          <source src="../assets/drone.mp4" type="video/mp4" />
+          <source src={droneVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
