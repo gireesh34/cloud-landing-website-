@@ -12,7 +12,7 @@ export function Hero() {
           className="absolute inset-0 w-full h-full object-cover"
           style={{ objectFit: 'cover', minHeight: '100%' }}
         >
-          <source src="/src/assets/drone.mp4" type="video/mp4" />
+          <source src="../assets/drone.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
