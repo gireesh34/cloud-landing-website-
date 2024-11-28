@@ -11,7 +11,7 @@ const features = [
 
 export function Platform() {
   return (
-    <section className="py-32 bg-[#011e14]" id="platform">
+    <section className="py-32 hero-gradient" id="platform">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>

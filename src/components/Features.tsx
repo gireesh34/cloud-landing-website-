@@ -35,7 +35,7 @@ const features = [
 
 export function Features() {
   return (
-    <section className="py-32 bg-[#011e14]" id="features">
+    <section className="py-32 hero-gradient" id="features">
       <div className="container mx-auto px-6 ">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-6">Advanced Platform Features</h2>
@@ -50,7 +50,7 @@ export function Features() {
             return (
               <div 
                 key={index} 
-                className="feature-card-gradient border border-zinc-800 p-8 rounded-2xl hover:border-amber-500/50 transition-all group"
+                className="glass-effect border border-zinc-800 p-8 rounded-2xl hover:border-amber-500/50 transition-all group"
               >
                 <div className="bg-amber-500/10 p-3 rounded-lg w-fit">
                   <Icon className="h-6 w-6 text-amber-500" />

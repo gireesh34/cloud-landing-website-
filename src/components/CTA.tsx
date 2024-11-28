@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function CTA() {
   return (
-    <section className="py-32 bg-[#011e14]" id="contact">
+    <section className="py-32 hero-gradient" id="contact">
       <div className="container mx-auto px-6 ">
         <div className="relative overflow-hidden rounded-3xl bg-[#033121] bg-opacity-30 backdrop-filter backdrop-blur-lg p-12 text-center ">
           <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 opacity-20" />
