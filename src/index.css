@@ -28,7 +28,7 @@
 @media (max-width: 768px) {
   
   .glass-effect {
-    background: rgba(255, 255, 255, 0.09); /* Increased opacity for better visibility */
+    background: rgba(255, 255, 255, 0.2); /* Increased opacity for better visibility */
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border: 1px solid rgba(255, 255, 255, 0.3);
